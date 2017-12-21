@@ -1,0 +1,43 @@
+@media(max-width: 767px){
+	.fa-chevron-circle-right,.fa-chevron-circle-left{
+	font-size:1.5rem;
+	color: black;
+}
+.carousel-indicators {
+    top: 10px;
+}
+}
+
+@media screen and (min-width: 768px)
+{
+.carousel-indicators {
+    bottom: 10px;
+}
+.awardback{
+	background-image: linear-gradient(#2980b9,#2c3e50);
+}
+}
+@media(max-width: 360px){
+
+}
+/* passport size edit
+ */ .image{
+  display: block;
+  margin:0 auto;
+height: 170px;
+   width:132px;
+  }
+
+
+ .image img{
+   height:100%;
+   width:100%;
+   border-radius: 50%;
+}
+img.thumbnail{
+	transition: transform .7s ease-in-out;
+	overflow: hidden;
+}
+img.thumbnail:hover{
+	transform: scale(1.1)  translateY(-2%);
+}

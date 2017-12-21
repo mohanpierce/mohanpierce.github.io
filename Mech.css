@@ -1,0 +1,35 @@
+.resizer{
+	padding-top: 15%;
+}
+#syllabus {
+	width: 70%;
+padding-top: 50%;
+}
+.resizer img{
+	border-radius: 50%;
+}
+
+
+@media(max-width: 990px)
+{
+#syllabus {
+padding-top: 0%;
+}
+.resizer{
+	padding-top: 0%;
+}
+.image{
+	padding-left: 43%;
+}
+
+}
+
+@media(max-width: 767px)                                
+{
+}
+
+@media (min-width: 320px) and (max-width: 480px) { /* Mobiles */
+ .image{
+	padding-left: 36%;
+}
+}
